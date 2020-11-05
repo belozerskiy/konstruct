@@ -1,0 +1,12 @@
+{
+  "name": "konstruct",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "scss:watch": "node-sass -w assets/scss/main.scss css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
