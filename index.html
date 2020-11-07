@@ -1,130 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Konstruct</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
-  <!-- HEADER START -->
-  <header class="header">
-    <a href="#" class="header__logo">
-      <img class="header__img" src="assets/images/header-logo.svg" alt="Logo">
-    </a>
-    <div class="header__text">
-      <h1 class="header__title title--xxl">Partner with konstract</h1>
-      <span class="header__subtitle">An award-winning construction management firm</span>
-    </div>
-    <button class="header__scroll-button">Scroll Down</button>
-  </header>
-  <!-- HEADER END -->
-  
-  <!-- NAVBAR START -->
-  <div class="navbar">
-    <div class="container">
-      <div class="row row--between">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konstruct</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img
+          class="header__img"
+          src="assets/images/header-logo.svg"
+          alt="Logo"
+        />
+      </a>
+      <div class="header__text">
+        <h1 class="header__title title--xxl">Partner with konstract</h1>
+        <span class="header__subtitle"
+          >An award-winning construction management firm</span
+        >
+      </div>
+      <button class="header__scroll-button">Scroll Down</button>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- NAVBAR START -->
+    <div class="navbar">
+      <div class="container navbar__container">
         <a class="navbar__logo" href="">
-          <img src="/assets/images/navbart-logo-black.svg" alt="Navbar Logo">
-        </a>  
+          <img src="/assets/images/navbart-logo-black.svg" alt="Navbar Logo" />
+        </a>
         <nav class="navbar__nav">
           <a class="navbar__link" href="#">Home</a>
           <a class="navbar__link" href="#">About</a>
           <a class="navbar__link" href="#">Services</a>
           <a class="navbar__link" href="#">Work</a>
-          <a class="navbar__link" href="#">Contact</a>  
+          <a class="navbar__link" href="#">Contact</a>
         </nav>
       </div>
     </div>
-  </div>
-  <!-- NAVBAR END -->
-  
-  <main>
-    <!-- OUR STORY START -->
-    <section class="container story u-space-xy--xxl">
-      <div class="story__heading">
-        <h2 class="title--xl">Our Story</h2>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <h3 class="story__title text--xl">
-            Founded in 2011 by John Mathew Smith, Konstruct has become the number one construction management firm
-          </h3>
-          <p class="story__desc text--nl">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-            laoreet dolore magna aliquam erat.
+    <!-- NAVBAR END -->
+
+    <main>
+      <!-- OUR STORY START -->
+      <section class="container story u-margin-xy--xxl">
+        <h2 class="title--xl title--center">Our Story</h2>
+        <div class="row">
+          <div class="col-6">
+            <h3 class="story__title">
+              Founded in 2011 by John Mathew Smith,
+              <span class="story__title--primary">Konstruct</span> has become
+              the number one construction management firm
+            </h3>
+            <p class="story__desc">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+              aliquam erat.
+            </p>
+          </div>
+
+          <ul class="story__services col-6">
+            <li class="service service--plan">We<br />Plan</li>
+            <li class="service service--manage">We<br />Manage</li>
+            <li class="service service--build">We<br />Build</li>
+          </ul>
+        </div>
+      </section>
+      <!-- OUR STORY END -->
+
+      <!-- CAPABULITIES START -->
+      <section class="container capabilities u-margin-xy--xxl">
+        <header class="capabilities-header">
+          <h2 class="capabilities-header__title title--xl">Our capabilities</h2>
+          <p class="capabilities-header__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          <a href="#" class="capabilities-header__button button button--primary"
+            >All Services</a
+          >
+        </header>
+
+        <ul class="row capabilities__list capabilities-list">
+          <li class="capabilities-list__item capabilitie capabilitie--first">
+            <h4 class="capabilitie__title title--md">
+              PROJECT AND CONSTRUCTION MANAGEMENT
+            </h4>
+            <p class="capabilitie__desc text--nl">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat.
+            </p>
+          </li>
+
+          <li class="capabilities-list__item capabilitie capabilitie--second">
+            <h4 class="capabilitie__title title--md">
+              STRUCTURE AUDIT AND MAINTENANCE
+            </h4>
+            <p class="capabilitie__desc text--nl">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat.
+            </p>
+          </li>
+
+          <li class="capabilities-list__item capabilitie capabilitie--third">
+            <h4 class="capabilitie__title title--md">
+              FACTORY CONSTRUCTION AND MODELING
+            </h4>
+            <p class="capabilitie__desc text--nl">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- CAPABULITIES END -->
+
+      <!-- AMAZING START -->
+      <section class="amazing u-margin-top--xxl">
+        <h2 class="amazing__title">Want to build something amazing?</h2>
+        <button class="amazing__button button button--primary">
+          Get in touch
+        </button>
+      </section>
+      <!-- AMAZING END -->
+
+      <!-- SIGNUP FORM START -->
+      <form class="signup-form">
+        <label for="signup-form__input" class="signup-form__label"
+          >Newsletter Signup</label
+        >
+        <input
+          type="email"
+          class="signup-form__input"
+          id="signup-form__input"
+          placeholder="text@youremail.com"
+        />
+        <button class="signup-form__button button button--primary">
+          SIGNUP
+        </button>
+      </form>
+      <!-- SIGNUP FORM END -->
+    </main>
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__company">
+          <h5 class="footer__title">Company</h5>
+          <img class="footer__logo" src="" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
           </p>
         </div>
-    
-        <ul class="story__services col-6">
-          <li class="service service--plan">We Plan</li>
-          <li class="service service--manage">We Manage</li>
-          <li class="service service--build">We Build</li>
+        <div class="footer__links">
+          <h5 class="footer__title">Links</h5>
+          <ul class="footer__list footer__list--links">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Home</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Faq</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+
+            <li class="footer__item">
+              <a href="#" class="footer__link">About</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Terms</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Partners</a>
+            </li>
+
+            <li class="footer__item">
+              <a href="#" class="footer__link">Services</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Carrers</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">News</a>
+            </li>
+
+            <li class="footer__item">
+              <a href="#" class="footer__link">Projects</a>
+            </li>
+            <li class="footer__itme footer__link--contact">
+              <a href="#" class="footer__link">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <h5 class="footer__title">Contact us</h5>
+          <ul class="footer__list footer__list--contacts">
+            <li>213 Baker StreetOriel City Kounty7000 KNW,Kountry Name</li>
+            <li>+23 994 233 4022</li>
+            <li>info@konstruct.com</li>
+          </ul>
+        </div>
+        <ul class="footer__list footer__list--socials socials">
+          <li class="socials__item">
+            <a
+              href="#"
+              class="social__link social-icon social-icon--facebook"
+            ></a>
+          </li>
+          <li class="socials__item">
+            <a
+              href="#"
+              class="social__link social-icon social-icon--twitter"
+            ></a>
+          </li>
+          <li class="socials__item">
+            <a
+              href="#"
+              class="social__link social-icon social-icon--google"
+            ></a>
+          </li>
         </ul>
-        
-      </div>  
-    </section>
-    <!-- OUR STORY END -->
-
-    <!-- CAPABULITIES START -->
-    <section class="container capabilities u-space-xy--xxl">
-      
-      <header class="capabilities__header"> 
-        <h2 class="capabilities-header__title title--xl">Our capabilities</h2>
-        <p class="capabilities-header__text text--sm"></p>
-        <a class="capabilities-header__button button button--primary">All Services</a>s
-      </header>
-
-      <ul class="row capabilities__list">
-        <li class="col-4 capabilitie">
-          <h4 class="capabilitie__title title--md">PROJECT AND CONSTRUCTION MANAGEMENT</h4>
-          <p class="capabilitie__desc text--nl">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat.
-          </p>
-        </li>
-
-        <li class="col-4 capabilitie">
-          <h4 class="capabilitie__title title--md">PROJECT AND CONSTRUCTION MANAGEMENT</h4>
-          <p class="capabilitie__desc text--nl">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat.
-          </p>
-        </li>
-        
-        <li class="col-4 capabilitie">
-          <h4 class="capabilitie__title title--md">PROJECT AND CONSTRUCTION MANAGEMENT</h4>
-          <p class="capabilitie__desc text--nl">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat.
-          </p>
-        </li>
-      </ul>
-    </section>
-    <!-- CAPABULITIES END -->
-
-    <!-- AMAZING START -->
-    <section class="container amazing u-space-xy--xxl">
-      <h2 class="amazing__title">Want to build so</h2> 
-      <button class="amazing__button button button--primary">Get in touch</button>
-    </section>
-    <!-- AMAZING END -->
-
-
-    <!-- SIGNUP FORM START -->
-    <form class="container signup-form">
-      <label for="signup-form__label">Newsletter Signup</label>
-      <input type="email" class="signup-form__input" id="signup-form__input" placeholder="text@youremail.com">
-      <button class="signup-form__button button button--primary"></button>
-    </form>
-    <!-- SIGNUP FORM END -->
-  </main>
-  
-  <footer>
-    <div></div>
-  </footer>
-</body>
+      </div>
+      <p class="footer__copyright">
+        © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+      </p>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
 </html>
